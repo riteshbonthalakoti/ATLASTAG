@@ -1,0 +1,13 @@
+# Hardware
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*-backups/
+*.zip
+*.pro
+*.kicad_prl
+
+# OS
+.DS_Store
+Thumbs.db

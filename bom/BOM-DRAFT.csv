@@ -1,0 +1,9 @@
+Designator,Value,Footprint,Manufacturer,Part Number,Description,Status
+U1,LTE-M/GNSS Mod,[PENDING],[PENDING],[PENDING],Main Cellular/GNSS Engine,OPEN
+U2,PMIC,[PENDING],[PENDING],[PENDING],Power Management IC,OPEN
+U3,Accelerometer,[PENDING],STMicroelectronics,LIS2DW12TR,Ultra-low-power 3-axis accelerometer,OPEN
+U4,SPI Flash,[PENDING],[PENDING],[PENDING],NOR Flash for Telemetry,OPEN
+ANT1,Cellular Ant,[PENDING],[PENDING],[PENDING],LTE-M Antenna,OPEN
+ANT2,GNSS Ant,[PENDING],[PENDING],[PENDING],GNSS Antenna,OPEN
+J1,USB-C,[PENDING],[PENDING],[PENDING],Charge Port,OPEN
+J2,SIM Slot,[PENDING],[PENDING],[PENDING],Nano SIM / eSIM,OPEN
