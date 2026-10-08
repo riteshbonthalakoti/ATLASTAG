@@ -36,4 +36,4 @@
 - **Mouser India:** Free DDP shipping to India for orders over ₹4,000 (~$50). Invoices provided with 18% GST input credit support.
 - **DigiKey India:** Free shipping for orders over ₹7,000 (~$85).
 - **Robu.in:** Domestic Indian supplier for lithium polymer batteries, avoiding international air transport DG (Dangerous Goods) customs clearance restrictions.
-- For complete component alternatives, evaluation options, and budget breakdown, refer to [`bom/BOM.md`](file:///c:/Projects/Hardware%20Projects/ATLASTAG/bom/BOM.md) and [`bom/BOM-DRAFT.csv`](file:///c:/Projects/Hardware%20Projects/ATLASTAG/bom/BOM-DRAFT.csv).
+- For complete component alternatives, evaluation options, and budget breakdown, refer to [`bom/BOM.md`](file:///c:/Projects/Hardware%20Projects/ATLASTAG/bom/BOM.md).
