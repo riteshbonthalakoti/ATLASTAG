@@ -40,4 +40,6 @@ Next:
 - Finalize the core hardware platform.
 - Start moving from research → actual PCB design.
 
+Github Repo: https://github.com/riteshbonthalakoti
+
 ![Screenshot 2026-10-08 234415](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/w890EgVDHUHryLXezmpxYEln7rcgrK0C/b2bce307d9d27faa8859801c9a0258240965495d6ec01da4d8d940690c906a15.png)
