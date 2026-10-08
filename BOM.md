@@ -4,36 +4,10 @@
 <!-- Generated: 1970-01-01T00:00:00.000Z -->
 
 > [!NOTE]
-> This parts list is mirrored from [Half Life](https://halflife.hackclub.com). Editing it here will not change the platform's copy, and the next sync overwrites this file. Detailed sourcing documentation and alternative options are maintained in [`bom/BOM.md`](file:///c:/Projects/Hardware%20Projects/ATLASTAG/bom/BOM.md).
+> This parts list is mirrored from [Half Life](https://halflife.hackclub.com). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
-| Week | Tier | Parts funding | Estimated Core BOM (USD) | Estimated Core BOM (INR) | Budget Status |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Week 1** | **Tier 3** | **$100.00** (~₹8,350) | **$44.65** | **₹3,727.87** | **Within Budget ($55.35 / ₹4,622 Headroom)** |
+| Week | Tier | Parts funding |
+| --- | --- | --- |
+| Week 1 | Tier 3 | $100.00 |
 
----
-
-## Production Bill of Materials (Real-Time Indian & USD Pricing)
-
-*Distributor pricing referenced from Mouser India, DigiKey India, and Robu.in (October 2026).*
-
-| Designator | Component / Subsystem | Part Number | Manufacturer | Indian Distributor | Price (INR ₹) | Global Distributor | Price (USD $) | Qty | Total (INR ₹) | Total (USD $) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **U1** | LTE-M/NB-IoT + GNSS SiP | **NRF9151-LACA-R** | Nordic Semi | Mouser India | ₹2,138.19 | Mouser / DigiKey | $25.40 | 1 | ₹2,138.19 | $25.40 |
-| **U2** | Smart PMIC & Li-Po Charger | **nPM1300-QEAA-R** | Nordic Semi | Mouser India | ₹291.40 | Mouser / DigiKey | $3.45 | 1 | ₹291.40 | $3.45 |
-| **U3** | 3-Axis Accelerometer (Motion Wake) | **LIS2DW12TR** | STMicroelectronics | Mouser India | ₹171.02 | Mouser / DigiKey | $2.02 | 1 | ₹171.02 | $2.02 |
-| **U4** | 32Mb SPI NOR Flash Memory | **W25Q32JVSSIQ** | Winbond | Evelta / Mouser | ₹102.00 | Mouser / LCSC | $1.20 | 1 | ₹102.00 | $1.20 |
-| **ANT1** | LTE-M Chip Virtual Antenna | **NN02-224** | Ignion | DigiKey India | ₹115.00 | DigiKey / Mouser | $1.35 | 1 | ₹115.00 | $1.35 |
-| **ANT2** | 1575.42 MHz GNSS Patch Antenna | **APAE1575R2540BBDB1-T** | Abracon | DigiKey India | ₹209.25 | DigiKey / Mouser | $2.48 | 1 | ₹209.25 | $2.48 |
-| **J1** | 16-Pin USB-C Receptacle (5V In) | **USB4105-GF-A** | GCT | Mouser India | ₹76.43 | Mouser / LCSC | $0.90 | 1 | ₹76.43 | $0.90 |
-| **J2** | Push-Pull Nano-SIM (4FF) Socket | **104224-0820** | Molex | Mouser India | ₹137.58 | Mouser / DigiKey | $1.62 | 1 | ₹137.58 | $1.62 |
-| **BAT1** | 3.7V 500mAh Li-Po Cell (with PCM) | **WLY902030** | Robu.in / WLY | Robu.in | ₹249.00 | Robu / Adafruit | $3.00 | 1 | ₹249.00 | $3.00 |
-| **PASS** | 0402/0603 Passives (Caps/Res/TVS) | **Generic SMT Passives** | Yageo / Murata | Robu / Mouser | ₹238.00 | LCSC / DigiKey | $2.83 | 1 | ₹238.00 | $2.83 |
-| **TOTAL** | | | | | | | | | **₹3,727.87** | **$44.65** |
-
----
-
-### Sourcing & Procurement Notes
-- **Mouser India:** Free DDP shipping to India for orders over ₹4,000 (~$50). Invoices provided with 18% GST input credit support.
-- **DigiKey India:** Free shipping for orders over ₹7,000 (~$85).
-- **Robu.in:** Domestic Indian supplier for lithium polymer batteries, avoiding international air transport DG (Dangerous Goods) customs clearance restrictions.
-- For complete component alternatives, evaluation options, and budget breakdown, refer to [`bom/BOM.md`](file:///c:/Projects/Hardware%20Projects/ATLASTAG/bom/BOM.md) and [`bom/BOM-DRAFT.csv`](file:///c:/Projects/Hardware%20Projects/ATLASTAG/bom/BOM-DRAFT.csv).
+_No parts listed yet._
