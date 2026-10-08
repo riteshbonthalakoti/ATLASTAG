@@ -14,13 +14,15 @@
 
 ## Contents
 
-1. [2026-10-08 – - Started building the foundation for AtlasTag.](#2026-10-08---started-building-the-foundation-for-atlastag)
+1. [2026-10-08 – ![AtlasTag Global Tracking Poster](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/w890EgVDHUHryLXezmpxYEln7rcgrK0C/82f13571bddfde49df86fc792f5c40ac02910586da929b369e8ccf5a2bf2f738.pn](#2026-10-08-atlastag-global-tracking-posterhttpshalflifehackc)
 
 ## Design
 
-### 2026-10-08 – - Started building the foundation for AtlasTag.
+### 2026-10-08 – ![AtlasTag Global Tracking Poster](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/w890EgVDHUHryLXezmpxYEln7rcgrK0C/82f13571bddfde49df86fc792f5c40ac02910586da929b369e8ccf5a2bf2f738.pn
 
 **1.13h**
+
+![AtlasTag Global Tracking Poster](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/w890EgVDHUHryLXezmpxYEln7rcgrK0C/82f13571bddfde49df86fc792f5c40ac02910586da929b369e8ccf5a2bf2f738.png)
 
 - Started building the foundation for AtlasTag.
 - Set up the GitHub repository and development workflow.
