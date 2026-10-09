@@ -22,6 +22,11 @@ Current work:
 - Telemetry queue storage (Winbond W25Q32 SOIC-8) and motion sensor header
 - Cellular/GNSS platform evaluation (Decoupled via 16-pin mezzanine interface)
 
+## Project Demo
+
+https://github.com/user-attachments/assets/558ffe17-422e-43a5-9f9e-540db29d0795
+
+
 
 ## Planned System
 
