@@ -1,6 +1,9 @@
 # AtlasTag
 
+![AtlasTag Banner](docs/images/atlastag_banner.jpg)
+
 > A compact, low-power, globally connected asset-tracking platform.
+
 
 ## Project
 
