@@ -1,6 +1,9 @@
 # AtlasTag
 
+![AtlasTag Banner](docs/images/atlastag_banner.jpg)
+
 > A compact, low-power, globally connected asset-tracking platform.
+
 
 ## Project
 
@@ -18,6 +21,11 @@ Current work:
 - Verified Li-Po charging (MCP73831) and ultra-low-dropout 3.3V regulation (AP2112K)
 - Telemetry queue storage (Winbond W25Q32 SOIC-8) and motion sensor header
 - Cellular/GNSS platform evaluation (Decoupled via 16-pin mezzanine interface)
+
+## Project Demo
+
+https://github.com/user-attachments/assets/558ffe17-422e-43a5-9f9e-540db29d0795
+
 
 
 ## Planned System
