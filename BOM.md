@@ -12,15 +12,6 @@
 
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
-| 100uF 10V Low-ESR Polymer/Tantalum | — | 1 | $0.85 | $0.85 | Panasonic |
-| Red 0603 SMD LED | — | 1 | $0.10 | $0.10 | Everlight |
-| Green 0603 SMD LED | — | 1 | $0.10 | $0.10 | Everlight |
-| Momentary Tactile Switch | — | 1 | $0.35 | $0.35 | C&K |
-| 3.7V 500mAh 1S Li-Po with PCM | — | 1 | $3.00 | $3.00 | WLY / Generic |
-| 0603 Resistors & Capacitors (Kit) | — | 1 | $2.50 | $2.50 | Yageo / Murata |
-| Linear CC/CV Li-Po Charger IC | — | 1 | $0.50 | $0.50 | Microchip |
-| Ultra-Low-Dropout 3.3V 600mA LDO | — | 1 | $0.33 | $0.33 | Diodes Inc |
-| 32Mb High-Speed SPI NOR Flash | — | 1 | $1.20 | $1.20 | Winbond |
 | 6-Pin Power-Only USB-C Receptacle | — | 1 | $0.45 | $0.45 | Korean HRO |
 | 2-Pin 2.0mm Li-Po Battery Header | — | 1 | $0.25 | $0.25 | JST |
 | 5-Pin 2.54mm I2C Sensor Header | — | 1 | $0.15 | $0.15 | Generic |
@@ -32,8 +23,8 @@
 | Momentary Tactile Switch | — | 1 | $0.35 | $0.35 | C&K |
 | 3.7V 500mAh 1S Li-Po with PCM | — | 1 | $3.00 | $3.00 | WLY / Generic |
 | 0603 Resistors & Capacitors (Kit) | — | 1 | $2.50 | $2.50 | Yageo / Murata |
-| **Parts subtotal** | — | — | — | **$18.60** | — |
+| **Parts subtotal** | — | — | — | **$9.67** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$18.60** | — |
+| **Total** | — | — | — | **$9.67** | — |
 
-$81.40 left of the tier's funding.
+$90.33 left of the tier's funding.
