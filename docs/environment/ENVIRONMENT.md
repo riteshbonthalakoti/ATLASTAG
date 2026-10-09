@@ -11,8 +11,14 @@
 - **Node.js**: v24.19.0
 
 ## CAD / Hardware Tooling
-- **KiCad**: CLI executable not found at default path (`C:\Program Files\KiCad\8.0\bin\kicad-cli.exe`). May need to verify KiCad version or adjust path before automated schematic/PCB builds.
+- **KiCad Version**: 10.0.6 (Installed via winget for current user)
+- **KiCad CLI Executable**: `C:\Users\bonth\AppData\Local\Programs\KiCad\10.0\bin\kicad-cli.exe`
+- **KiCad GUI Executable**: `C:\Users\bonth\AppData\Local\Programs\KiCad\10.0\bin\kicad.exe`
+- **KiCad Python Executable**: `C:\Users\bonth\AppData\Local\Programs\KiCad\10.0\bin\python.exe` (includes `pcbnew` 10.0.6)
+- **Standard Symbol Libraries**: `C:\Users\bonth\AppData\Local\Programs\KiCad\10.0\share\kicad\symbols` (Verified present)
+- **Standard Footprint Libraries**: `C:\Users\bonth\AppData\Local\Programs\KiCad\10.0\share\kicad\footprints` (Verified present)
+- **PATH Configuration Note**: The KiCad binary directory is not on the Windows system or user `PATH`. The project and its automation workflows explicitly use the verified absolute executable paths instead.
 
 ## Notes
-- Environment is ready for initial documentation, architecture, and research phases.
-- Git is configured and repository is initialized.
+- Environment is ready for initial documentation, architecture, research, schematic capture, and DRC/ERC validation.
+- Git is configured and repository is initialized on active branch `dev`.

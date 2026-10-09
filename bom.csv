@@ -1,0 +1,16 @@
+Designator,Subsystem,Description,Manufacturer,Part Number,Package,Vendor,Unit Price (USD),Unit Price (INR @ 96.70),Quantity,Total (USD),Total (INR)
+U1,Battery Charger,Linear CC/CV Li-Po Charger IC,Microchip,MCP73831T-2ACI/OT,SOT-23-5,Mouser,0.50,48.35,1,0.50,48.35
+U2,Voltage Regulator,Ultra-Low-Dropout 3.3V 600mA LDO,Diodes Inc,AP2112K-3.3TRG1,SOT-23-5,Mouser,0.33,31.91,1,0.33,31.91
+U3,Telemetry Flash,32Mb High-Speed SPI NOR Flash,Winbond,W25Q32JVSSIQ,SOIC-8 208mil,Mouser / Evelta,1.20,116.04,1,1.20,116.04
+J1,5V Power Port,6-Pin Power-Only USB-C Receptacle,Korean HRO,TYPE-C-31-M-12,SMT Mid-Mount,LCSC / Mouser,0.45,43.52,1,0.45,43.52
+J2,Battery Port,2-Pin 2.0mm Li-Po Battery Header,JST,S2B-PH-K-S,Through-Hole 2.0mm,Robu.in / Mouser,0.25,24.18,1,0.25,24.18
+J3,Motion Sensor Port,5-Pin 2.54mm I2C Sensor Header,Generic,PinHeader_1x05,Through-Hole 2.54mm,Robu.in,0.15,14.51,1,0.15,14.51
+J4,Modem Mezzanine,16-Pin 2.54mm Modular Interface,Generic,PinHeader_2x08,Through-Hole 2.54mm,Robu.in,0.30,29.01,1,0.30,29.01
+J5,SIM Socket,Push-Pull Nano-SIM (4FF) Socket,Molex,104224-0820,SMT Perimeter,Mouser,1.62,156.65,1,1.62,156.65
+C3,Burst Bulk Cap,100uF 10V Low-ESR Polymer/Tantalum,Panasonic,CP_EIA-3528-21,EIA 3528-21 SMD,Mouser,0.85,82.20,1,0.85,82.20
+D1,Charge LED,Red 0603 SMD LED,Everlight,19-217/R6C-AL1M2VY/3T,0603 Metric,Mouser,0.10,9.67,1,0.10,9.67
+D2,Power LED,Green 0603 SMD LED,Everlight,19-217/GHC-YR1S2/3T,0603 Metric,Mouser,0.10,9.67,1,0.10,9.67
+SW1,User Button,Momentary Tactile Switch,C&K,PTS645Sx43SMTR92,SMT Gull-Wing,Mouser,0.35,33.85,1,0.35,33.85
+BAT1,Battery,3.7V 500mAh 1S Li-Po with PCM,WLY / Generic,WLY902030,Prismatic with leads,Robu.in,3.00,290.10,1,3.00,290.10
+PASS,Passives Kit,0603 Resistors & Capacitors (Kit),Yageo / Murata,Generic 0603 Kit,0603 Metric,Robu / Mouser,2.50,241.75,1,2.50,241.75
+TOTAL,Baseboard BOM,Total Component Parts Cost,,,,,,,,,11.70,1131.91

@@ -75,10 +75,25 @@ flowchart LR
 
 ## Hardware Component Summary
 
-| Role | Component Candidate | Purpose |
-| :--- | :--- | :--- |
-| **Main Brain & Modem** | Nordic nRF9151 / Quectel BG95 | Runs device logic, reads GPS, connects to 4G LTE-M |
-| **Motion Sensor** | ST LIS2DW12 | Ultra-low power accelerometer that detects motion |
-| **Power Manager (PMIC)** | Nordic nPM1300 / Discrete PMIC | Safely charges battery via USB-C and manages power rails |
-| **Offline Memory** | SPI NOR Flash | Stores unsent location records when off-grid |
-| **SIM Card** | Solderable eSIM / Nano-SIM | Provides global cellular network connectivity |
+| Role | Component Candidate | Purpose | Iron-Only Assembly Feasibility |
+| :--- | :--- | :--- | :--- |
+| **Main Brain & Modem** | Nordic nRF9151 / Quectel BG95-M3 / SIM7080G | Runs device logic, reads GPS, connects to NB-IoT/LTE-M | PENDING (Via Mezzanine Header) |
+| **Battery Charger** | Microchip MCP73831 (SOT-23-5) | Safe CC/CV single-cell Li-Po charging from USB-C | 100% Solderable (Gull-wing leads) |
+| **System Voltage Regulator** | Diodes Inc AP2112K-3.3 (SOT-23-5) / Low-IQ LDO | Regulated 3.3V rail for host, flash, and sensors | 100% Solderable (Gull-wing leads) |
+| **Motion Sensor** | ST LIS2DW12 / Pre-soldered MEMS Breakout | Ultra-low power accelerometer for motion wake | Header Breakout (Bare LGA unresolved) |
+| **Offline Memory** | Winbond W25Q32JVSSIQ (SOIC-8) | Stores unsent location records when off-grid | 100% Solderable (1.27 mm gull-wing) |
+| **SIM Card Socket** | Molex 104224-0820 Nano-SIM | Provides cellular network carrier interface | Solderable perimeter SMT pads |
+| **Modem Interface Header** | Dual-Row 2.54mm Mezzanine Header | Decouples modem footprint from baseboard | 100% Solderable Through-Hole |
+
+---
+
+## Modular Prototype Architecture (Baseboard + Mezzanine)
+
+To decouple unverified fine-pitch modem footprints and enable iron-only hand assembly during Week 1, AtlasTag implements a modular architecture:
+- **Baseboard (45 × 35 mm):** Contains the 100% iron-solderable power path (USB-C, MCP73831 charger, 3.3V LDO), battery monitor, Winbond SOIC-8 flash, Nano-SIM socket, status LEDs, and sensor breakout header.
+- **Modem Mezzanine Header:** Standardized 12-pin interface providing VBAT (burst power), 3.3V, GND, UART (TX/RX/RTS/CTS), control GPIOs (PWRKEY, RESET, STATUS), and SIM lines.
+- **Trade-Offs:**
+  - *Size:* Adds ~3–5 mm in vertical Z-stack height compared to a monolithic SiP, while remaining compact (45×35 mm).
+  - *RF:* Eliminates high-risk RF microstrip routing on the baseboard; antenna matching remains on the modem module/carrier or connects via U.FL.
+  - *Power:* High-current burst capability maintained by dual parallel VBAT and GND pins.
+

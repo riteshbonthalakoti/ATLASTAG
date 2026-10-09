@@ -4,7 +4,7 @@
 
 | Date | Topic | Options Considered | Decision | Justification | Status |
 |------|-------|--------------------|----------|---------------|--------|
-| YYYY-MM-DD | Cellular/GNSS Platform | nRF9151, BG95-M3, SARA-R510M8S, SIM7080G | [PENDING] | Need to weigh ease of soldering (LCC vs LGA) vs physical footprint and firmware ecosystem. | OPEN |
+| 2026-10-09 | Cellular/GNSS Platform | nRF9151-LACA-R, BG95-M3, SIM7080G | [PENDING] | Sourced trade study completed. With 'soldering iron only', nRF9151 (LGA-114) is impossible unless low-cost PTC hot plate (~₹450 INR) or local repair shop rework is approved. SIM7080G LCC is hand-solderable (via bottom via for center pad), but requires discrete MCU, level shifter, and external GNSS LNA. BG95-M3 has 3.3V brownout risk. Indian deployment requires NB-IoT (B3/B5/B8). Decision kept OPEN pending tooling selection and SIM/carrier verification. | OPEN |
 | YYYY-MM-DD | Accelerometer | LIS2DW12, ADXL362 | LIS2DW12 (Tentative) | Excellent power profile and built-in wake features. | OPEN |
 | YYYY-MM-DD | Power Management | PMIC vs Discrete | PMIC | Space constraint and ultra-low IQ requirement for PSM. | OPEN |
 | YYYY-MM-DD | Storage | SPI NOR vs microSD | SPI NOR | Lower power, smaller footprint. | OPEN |
