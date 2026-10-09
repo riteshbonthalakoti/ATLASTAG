@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 3 | 1.5h | 1 |
+| Week 1 | Tier 3 | 2h | 1 |
 
 ## Contents
 
@@ -20,7 +20,7 @@
 
 ### 2026-10-08 – ![AtlasTag Global Tracking Poster](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/w890EgVDHUHryLXezmpxYEln7rcgrK0C/82f13571bddfde49df86fc792f5c40ac02910586da929b369e8ccf5a2bf2f738.pn
 
-**1.5h**
+**2h**
 
 ![AtlasTag Global Tracking Poster](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/w890EgVDHUHryLXezmpxYEln7rcgrK0C/82f13571bddfde49df86fc792f5c40ac02910586da929b369e8ccf5a2bf2f738.png)
 
