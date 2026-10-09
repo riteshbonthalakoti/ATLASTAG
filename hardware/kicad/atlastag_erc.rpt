@@ -1,0 +1,51 @@
+ERC report (2026-10-09T18:42:47, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(205.74 mm, 58.42 mm): Symbol U3 Pin 6 [CLK, Input, Line]
+[lib_symbol_mismatch]: Symbol 'AP2112K-3.3' doesn't match copy in library 'Regulator_Linear'
+    ; warning
+    @(114.30 mm, 114.30 mm): Symbol U2 [AP2112K-3.3]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(200.66 mm, 58.42 mm): Label 'SPI_CLK'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(200.66 mm, 60.96 mm): Label 'SPI_MOSI'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(200.66 mm, 63.50 mm): Label 'SPI_MISO'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(205.74 mm, 132.08 mm): Label 'MOTION_INT'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(307.34 mm, 114.30 mm): Label 'MODEM_RESET'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(307.34 mm, 116.84 mm): Label 'UART_TX'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(307.34 mm, 119.38 mm): Label 'UART_RTS'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(330.20 mm, 111.76 mm): Label 'MODEM_PWRKEY'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(330.20 mm, 114.30 mm): Label 'MODEM_STATUS'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(330.20 mm, 116.84 mm): Label 'UART_RX'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(330.20 mm, 119.38 mm): Label 'UART_CTS'
+
+ ** ERC messages: 13  Errors 1  Warnings 12
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

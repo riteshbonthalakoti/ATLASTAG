@@ -1,9 +1,15 @@
 /**
  * @file main.c
- * @brief AtlasTag Firmware — Baseboard Telemetry & Power State Machine
+ * @brief AtlasTag Firmware — Architectural Conceptual Stub (Week 1 Checkpoint)
  * @project Hack Club Half Life (Tier 3)
- * @details Manages motion wake interrupt, battery voltage sensing,
- *          offline SPI Flash queue, and modem UART AT transaction state machine.
+ * @status STUB / ARCHITECTURAL MOCKUP — NOT PRODUCTION DRIVERS
+ * @details This file provides an architectural reference model for state machine
+ *          transitions and battery voltage threshold calculations. It uses mock
+ *          data (hardcoded ADC sample values) and standard C library output.
+ *          Target MCU hardware drivers (I2C for motion, SPI for NOR Flash,
+ *          ADC HAL for battery sensing, UART for modem AT commands) will be
+ *          implemented once the primary Cellular/GNSS platform and host MCU
+ *          architecture are finalized.
  */
 
 #include <stdint.h>
@@ -65,8 +71,10 @@ int main(void) {
     /* Initialize peripherals: I2C (Motion), SPI (NOR Flash), UART (Modem), ADC */
     g_system_state = STATE_SAMPLE_BATTERY;
     
-    uint16_t current_vbat_mv = atlastag_read_battery_mv(2600, 4095); /* Example ~4.18V */
-    printf("[AtlasTag] Battery Voltage: %u mV\n", current_vbat_mv);
+    /* NOTE: Simulated ADC reading (2600 counts on 12-bit ADC / 4095 max, equivalent to ~4.18V).
+     * Hardware ADC driver integration is pending target host MCU selection. */
+    uint16_t current_vbat_mv = atlastag_read_battery_mv(2600, 4095);
+    printf("[AtlasTag] Battery Voltage (Simulated): %u mV\n", current_vbat_mv);
     
     if (!atlastag_is_battery_safe(current_vbat_mv)) {
         printf("[AtlasTag] WARNING: Low battery. Cellular Tx inhibited to prevent brownout.\n");
