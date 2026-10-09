@@ -1,12 +1,16 @@
 # AtlasTag Fabrication Outputs (Gerbers & Drill)
 
-> **STATUS: PRELIMINARY CHECKPOINT EXPORT — NOT FOR FABRICATION**  
+> **STATUS: PRELIMINARY CHECKPOINT EXPORT — STRICTLY NOT FOR FABRICATION**  
 > **Date:** October 9, 2026  
 > **Tool:** KiCad 10.0.6 (`kicad-cli`)
 
 ---
 
-## Notice
-These Gerber and Excellon drill files represent the initial Week 1 4-layer controlled impedance stackup (`JLC04161H`) and board outline (45 × 35 mm on `Edge.Cuts`).
+## Critical Notice
 
-They are exported strictly for automated toolchain validation, visual clearance verification, and milestone progress tracking. **DO NOT ORDER OR SUBMIT THESE FILES TO FABRICATION** until schematic component routing, power plane polygon pours, and design reviews are completed and authorized.
+These Gerber and Excellon drill files represent the Week 1 prototype board outline (45 × 35 mm on `Edge.Cuts`) and preliminary footprint placements for toolchain validation.
+
+### Engineering Fabrication Gate:
+- **Routing Status:** Incomplete. Full signal routing (SPI, UART, SIM) and internal ground/power plane polygon pours (`In1.GND`, `In2.PWR`) are not completed.
+- **DRC Verification:** **NOT VERIFIED.** KiCad Design Rules Check (DRC) requires interactive GUI verification and has not been executed.
+- **Ordering Advisory:** **DO NOT ORDER, SUBMIT, OR QUOTE THESE GERBERS FOR PCB FABRICATION.** Production manufacturing outputs will only be generated after schematic signoff, complete manual PCB routing, ground pour stitching, and a clean KiCad GUI DRC report.

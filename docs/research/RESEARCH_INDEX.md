@@ -140,16 +140,16 @@ Following the initial platform comparison, this reassessment incorporates four c
 
 | Parameter | Reliance Jio | Bharti Airtel | Vodafone Idea (Vi) | Global Roaming IoT SIMs (1NCE / Hologram / Monogoto) |
 | :--- | :--- | :--- | :--- | :--- |
-| **NB-IoT Deployment** | **CONFIRMED Nationwide** (B3 1800 MHz, B5 850 MHz). Over 1M smart meters connected. | **CONFIRMED in Major Circles** (B3 1800 MHz, B8 900 MHz). | **CONFIRMED in Select Circles** (B8 900 MHz, smart metering). | **CONFIRMED Supported** (Roams onto Airtel / Jio / Vi). |
-| **LTE-M (eMTC) Availability** | **UNVERIFIED / NOT ACTIVE**. Enterprise trials only. | **UNVERIFIED / NOT ACTIVE** for general public. | **NOT DEPLOYED**. | Subject to local carrier roaming agreements. |
+| **NB-IoT Deployment & Local Service** | **UNVERIFIED FOR ATLAS TAG**. Commercial macro deployment claimed on B3/B5 for smart metering, but local cell tower signaling, individual IoT APN provisioning, and device attachment remain **UNVERIFIED**. | **UNVERIFIED LOCALLY**. Deployed in select circles on B3/B8; individual testing unverified. | **UNVERIFIED LOCALLY**. Deployed in select circles on B8; smart metering only. | **CONFIRMED Roaming**. Roams across multiple carriers subject to local tower agreements. |
+| **LTE-M (eMTC) Availability** | **UNVERIFIED / NOT COMMERCIALLY ACTIVE**. Enterprise trials only. | **UNVERIFIED / NOT COMMERCIALLY ACTIVE** for general public. | **NOT DEPLOYED**. | Subject to local carrier roaming agreements. |
 | **Standard Consumer SIM Support** | **BLOCKED**. Standard prepaid/postpaid smartphone SIMs cannot attach to NB-IoT APNs. | **BLOCKED**. Consumer SIMs fail authentication on NB-IoT bearer. | **BLOCKED**. | **N/A** (Dedicated IoT profile). |
-| **M2M SIM Activation Requirements** | Requires corporate GSTIN, enterprise KYC, and minimum volume contract via Jio Business. | Requires enterprise onboarding through Airtel IoT portal. | Enterprise only. | Can be purchased by individuals in 1-piece quantities online (e.g. 1NCE 10-year SIM for $10 USD / ₹850 INR). |
+| **M2M SIM Activation Requirements** | **UNVERIFIED FOR PROTOTYPE**. Requires enterprise GSTIN onboarding and M2M APN provisioning via Jio Business. Activation for 1-off prototypes remains unverified. | Enterprise onboarding required. | Enterprise onboarding required. | Can be purchased by individuals in 1-piece quantities online (e.g. 1NCE 10-year SIM for $10 USD / ₹967 INR). |
 
 ### 4.2 Exact Operator & Location Questions Requiring Confirmation
-Before finalizing cellular hardware commitments, the following factual questions must be answered:
-1. **SIM Sourcing Source:** Exactly which SIM card will be used for AtlasTag? Is it an Indian enterprise M2M SIM (Airtel/Jio) with an active NB-IoT APN, or an international roaming IoT SIM (e.g., 1NCE, Hologram, Onomondo)?
-2. **Local Tower Carrier Verification:** Does the cell tower serving the user's laboratory/home location have active NB-IoT signaling enabled on Band 3 (1800 MHz), Band 5 (850 MHz), or Band 8 (900 MHz)?
-3. **Firmware Protocol Target:** Because commercial LTE-M is essentially absent in India, all firmware network stacks must be configured strictly for **NB-IoT band scanning** (Band 3 / Band 5 / Band 8).
+Before finalizing cellular hardware commitments, the following factual questions remain strictly **UNVERIFIED**:
+1. **SIM Sourcing & Provisioning:** Exactly which SIM card will be used for AtlasTag? Jio Business M2M SIM provisioning and APN credentials are **unverified**.
+2. **Local Tower Carrier Verification:** Does the cell tower serving the user's laboratory/deployment location have active NB-IoT signaling enabled on Band 3 (1800 MHz) or Band 5 (850 MHz)? Currently **unverified**.
+3. **Firmware Protocol Target:** Because commercial LTE-M is essentially absent in India, all firmware network stacks must be configured strictly for **NB-IoT band scanning** (Band 3 / Band 5 / Band 8) once verified.
 
 ---
 

@@ -13,4 +13,4 @@ D2,Power LED,Green 0603 SMD LED,Everlight,19-217/GHC-YR1S2/3T,0603 Metric,Mouser
 SW1,User Button,Momentary Tactile Switch,C&K,PTS645Sx43SMTR92,SMT Gull-Wing,Mouser,0.35,33.85,1,0.35,33.85
 BAT1,Battery,3.7V 500mAh 1S Li-Po with PCM,WLY / Generic,WLY902030,Prismatic with leads,Robu.in,3.00,290.10,1,3.00,290.10
 PASS,Passives Kit,0603 Resistors & Capacitors (Kit),Yageo / Murata,Generic 0603 Kit,0603 Metric,Robu / Mouser,2.50,241.75,1,2.50,241.75
-TOTAL,Baseboard BOM,Total Component Parts Cost,,,,,,,,,11.70,1131.91
+TOTAL,Baseboard BOM,Total Component Parts Cost,,,,,,,,,11.70,1131.41
