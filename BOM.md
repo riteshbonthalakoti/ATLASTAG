@@ -12,13 +12,6 @@
 
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
-| Ultra-Low-Dropout 3.3V 600mA LDO | — | 1 | $0.33 | $0.33 | Diodes Inc |
-| 32Mb High-Speed SPI NOR Flash | — | 1 | $1.20 | $1.20 | Winbond |
-| 6-Pin Power-Only USB-C Receptacle | — | 1 | $0.45 | $0.45 | Korean HRO |
-| 2-Pin 2.0mm Li-Po Battery Header | — | 1 | $0.25 | $0.25 | JST |
-| 5-Pin 2.54mm I2C Sensor Header | — | 1 | $0.15 | $0.15 | Generic |
-| 16-Pin 2.54mm Modular Interface | — | 1 | $0.30 | $0.30 | Generic |
-| Push-Pull Nano-SIM (4FF) Socket | — | 1 | $1.62 | $1.62 | Molex |
 | 100uF 10V Low-ESR Polymer/Tantalum | — | 1 | $0.85 | $0.85 | Panasonic |
 | Red 0603 SMD LED | — | 1 | $0.10 | $0.10 | Everlight |
 | Green 0603 SMD LED | — | 1 | $0.10 | $0.10 | Everlight |
@@ -39,8 +32,8 @@
 | Momentary Tactile Switch | — | 1 | $0.35 | $0.35 | C&K |
 | 3.7V 500mAh 1S Li-Po with PCM | — | 1 | $3.00 | $3.00 | WLY / Generic |
 | 0603 Resistors & Capacitors (Kit) | — | 1 | $2.50 | $2.50 | Yageo / Murata |
-| **Parts subtotal** | — | — | — | **$22.90** | — |
+| **Parts subtotal** | — | — | — | **$18.60** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$22.90** | — |
+| **Total** | — | — | — | **$18.60** | — |
 
-$77.10 left of the tier's funding.
+$81.40 left of the tier's funding.
