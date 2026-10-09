@@ -1,0 +1,22 @@
+(kicad_sch
+	(version 20250610)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c6")
+	(paper "A4")
+	(title_block
+		(title "AtlasTag Baseboard")
+		(date "2026-10-09")
+		(rev "v0.1.0-draft")
+		(company "AtlasTag - Hack Club Half Life Tier 3")
+		(comment 1 "Iron-Solderable Modular Prototype Baseboard (45x35mm)")
+		(comment 2 "Status: PRELIMINARY - NOT FOR FABRICATION")
+	)
+	(lib_symbols
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

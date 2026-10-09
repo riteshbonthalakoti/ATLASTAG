@@ -8,16 +8,17 @@ AtlasTag is a Hack Club Half Life hardware project exploring how a slim, portabl
 
 ## Current Status
 
-Week 1. PCB Design.
+Week 1 — PCB Design (Modular Prototype Baseboard).
+
+![AtlasTag Baseboard 3D Render](docs/images/atlastag_pcb_render.png)
+*AtlasTag Week 1 Modular Prototype Baseboard (45 × 35 mm, 4-Layer Controlled Impedance Stackup).*
 
 Current work:
-- project requirements
-- hardware architecture research
-- component evaluation
-- power architecture research
-- cellular/GNSS platform evaluation
+- Modular iron-solderable baseboard schematic & 4-layer PCB layout
+- Verified Li-Po charging (MCP73831) and ultra-low-dropout 3.3V regulation (AP2112K)
+- Telemetry queue storage (Winbond W25Q32 SOIC-8) and motion sensor header
+- Cellular/GNSS platform evaluation (Decoupled via 16-pin mezzanine interface)
 
-Hardware implementation has not yet been finalized.
 
 ## Planned System
 

@@ -2,9 +2,10 @@
 
 > **Project:** AtlasTag (Hack Club Half Life)  
 > **Target Tier:** Week 1 — Tier 3  
-> **Parts Funding Limit:** **$100.00 USD** (~**₹8,350 INR** @ 1 USD ≈ ₹83.50)  
-> **Estimated Unit Cost (Primary Build):** **$44.65 USD** / **₹3,728 INR**  
-> **Remaining Budget Headroom:** **$55.35 USD** / **₹4,622 INR** (Available for PCB fabrication & assembly spares)
+> **Exchange Rate:** **1.00 USD = ₹96.70 INR**  
+> **Parts Funding Limit:** **$100.00 USD** (**₹9,670.00 INR**)  
+> **Estimated Unit Cost (Primary Build):** **$44.25 USD** / **₹4,278.98 INR**  
+> **Remaining Budget Headroom:** **$55.75 USD** / **₹5,391.02 INR** (Available for PCB fabrication & assembly spares)
 
 ---
 
@@ -59,12 +60,13 @@ These candidate components were evaluated during architecture research for alter
 ---
 
 ## 4. Half Life Tier 3 Budget Analysis
-
-| Parameter | Value in USD | Value in INR (1 USD ≈ ₹83.50) | Status |
+ 
+| Parameter | Value in USD | Value in INR (1 USD = ₹96.70) | Status |
 | :--- | :--- | :--- | :--- |
-| **Hack Club Half Life Funding Limit** | **$100.00** | **₹8,350.00** | Allocated |
-| **AtlasTag Core BOM Cost** | **$44.65** | **₹3,727.87** | Committed |
-| **Estimated Custom PCB Fab (5 pcs @ JLCPCB/LionCircuits)** | **$15.00** | **₹1,250.00** | Budgeted |
-| **SMD Stencil & Solder Paste** | **$8.00** | **₹668.00** | Budgeted |
-| **Remaining Contingency Reserve** | **$32.35** | **₹2,704.13** | Buffer |
-| **Total Project Expenditure** | **$67.65** | **₹5,645.87** | **Within 100% Budget ($32.35 Under)** |
+| **Hack Club Half Life Funding Limit** | **$100.00** | **₹9,670.00** | Allocated |
+| **AtlasTag Core BOM Cost** | **$44.25** | **₹4,278.98** | Committed |
+| **Estimated Custom PCB Fab (5 pcs @ JLCPCB/LionCircuits)** | **$15.00** | **₹1,450.50** | Budgeted |
+| **SMD Stencil & Solder Paste** | **$8.00** | **₹773.60** | Budgeted |
+| **Remaining Contingency Reserve** | **$32.75** | **₹3,166.92** | Buffer |
+| **Total Project Expenditure** | **$67.25** | **₹6,503.08** | **Within 100% Budget ($32.75 / ₹3,166.92 Under)** |
+
